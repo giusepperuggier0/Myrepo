@@ -1,0 +1,277 @@
+* {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 16px;
+}
+
+                h1 {
+                    font-family: "Raleway", sans-serif;
+                    font-weight: bolder;
+                    font-weight: 400;
+                    font-size: 36px;
+                    
+                }
+
+
+                .color1 {
+                    background-color: black;
+                    color: white;
+                }
+
+    .h3{ 
+         font-size: 18px;
+         font-family: "Raleway", sans-serif;
+        }
+    .data{
+        margin-left: 10px;
+        font-family: "Raleway", sans-serif;
+    }
+
+  .testo1 {
+    width: 100%;
+    padding-top: 20px;
+  }    
+
+  .contenitore1 {
+    width: 60%;
+    border: 1px solid #777;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 10px 40px black;
+    margin: 20px;
+
+    
+  }
+  
+ .img1 {
+    width: 100%
+ }
+  .button1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px ;
+    border: 1px solid #777777;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .color2{
+    background-color: black;
+    color: white;
+    padding: 4px;
+  }
+
+  .contenitore2 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+
+  .button2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 25px;
+  }
+
+  .contenitorepadre1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contenitore3 {
+    width: 35%;
+    border: 1px solid #777;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 10px 40px black;
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+  }
+  .img2 {
+    width: 100%;
+  }
+
+  h3{
+    margin: 10px;
+  }
+
+  .testo2  {
+    margin: 10px;
+    padding: 30px;
+  }
+
+  .contenitore4 {
+    width: 35%;
+   
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 10px 40px black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+    right: 10px;
+  }
+
+  .li {
+    
+    display: flex;
+    text-align: start;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(https://www.w3schools.com/w3images/workshop.jpg);
+    background-size: 20%;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    
+  }
+
+  .img3 {
+    width: 13%;
+    margin: 10px 0 0 15px;
+  }
+
+   .title3 {
+    padding: 20px;
+    border-bottom: 1px solid #777777;
+    background-color: #d6d0d0;
+   }
+
+   .l1 {
+    padding: 20px;
+   }
+
+   .title4 {
+    padding: 20px;
+    border-bottom: 1px solid #cac8c8;
+    background-color: #d6d0d0;
+   }
+
+   .contenitore5 {
+    width: 35%;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0 10px 40px black;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    left: 64%;
+    bottom: 80px;
+    
+   }
+
+   .box2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    
+   }
+
+   .tags1 {
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+   }
+
+   .tags {
+    background-color: #c7c7c7;
+    padding: 5px;
+    margin: 5px;
+   }
+
+   .contenitore6 {
+    margin: 0px auto;
+    width: 100%;
+    height: 200px;
+    background-color: #777777;
+   }
+
+   .button2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px ;
+    border: 1px solid #777777;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    background-color: black;
+    color: white;
+   }
+
+
+
+
+   @media screen and (max-width: 576px) {
+    header {
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+      .contenitorepadre1 {
+        width: 960px;
+        display: inline-flex;
+        flex-direction: column;
+        position: relative;
+        right: 187px;
+      }
+      .contenitorepadre2 {
+        position: relative;
+        bottom: 560px;
+        display: inline-flex;
+        flex-direction: column;
+      }
+
+      .contenitore3 {
+        width: 60%;
+        position: relative;
+        top: 560px;
+        z-index: 999;
+      }
+      .contenitore4 {
+        position: relative;
+        top: 600px;
+        left: 6px;
+        width: 60%;
+      }
+
+      .contenitore5{
+        width: 102.5%;
+        position: relative;
+        left: 8px;
+        top: 55px;
+      }
+
+      .contenitore6{
+        width: 104%;
+        position: relative;
+        top: 90px;
+      }
+   }
