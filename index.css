@@ -1,104 +1,220 @@
-.containterLEFT{
-    background-color: red;
-    width: 300px;
-    height: 2000px;
-    padding-top: 50px;
-    display: flex;
-    justify-content: flex-start;
+
+
+nav {
+    background-color: black;
+    color: white;
+
+
+}
+
+div i {
+    padding: 20px 20px;
     align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div i:hover {
+    background-color: white;
+    color: black;
+}
+
+h5 span {
+    background-color: black;
+    color: white;
+
+}
+
+.blogtop{
+     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    position: fixed;
-    left: 0;
-    padding-right: 180px;
-    height: 100%;
-    
-}
 
-.containterRight {
-    position: absolute;
-    left: 300px;
-    margin-left: 50px;
-    height: 100%;
-}
-
-.nav-item {
-    list-style-type: none;
-    color: white !important;
-}
-
-.navbar-brand {
-    color: white !important;
-    margin-right: 20px;
-    
-    padding: 0;
-    font-size: 30px;
-}
-
-h1 {
-    padding: 40px 0;
-    font-size: 50px;
-
-}
-
-.subtitle {
-    color: red;
 }
 
 .img {
-    width: 500px;
-    height: 400px;
-    padding-right: 50px;
+    width: 100%;
+    height: 1060px;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/jane.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
 }
 
-.img2 {
-    width: 500px;
-    height: 270px;
-    padding-right: 50px;
+h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 30px;
 }
 
-.containerBottom {
-   margin-top: 100px;
 
+.button {
+    color: black;
+    background-color: rgb(193, 189, 189);
+    padding:5px 15px;
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
 }
 
-.underscore {
-    margin: 10px;
-    width: 60px;
-    height: 4px;
-    background-color: red;
-}
-
-br{
-    margin-bottom: 10px;
-}
-
-.card-img-top {
-    opacity: 0.7;
+.card {
+    margin-left: 40px;
+    padding:15px 35px;
     
 }
-
-.card-group {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-}
-
-.packages {
-    margin-top: 70px;
-}
-
-.titletabella {
-    background-color: red;
-    color: white;
-}
-
-.titletabella1 {
-    background-color: rgb(157, 156, 156);
-    color: white;
-}
-
-.list-group-item {
-    padding: 20px;
+.card-title, .card-date {
     display: flex;
     justify-content: center;
 }
+
+.grey-line {
+    width: 95%;
+    height: 2px;
+    background-color: rgb(212, 212, 212);
+    margin-top: 25px;
+}
+
+.card1 {
+    margin: 0px;
+}
+
+.card-body1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -80px;
+}
+
+.btn  {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-primo {
+    margin-left: -50px;
+}
+
+.btn-secondo {
+    margin-right: -50px ;
+}
+
+.numero {
+    color:gray;
+    background-color: white;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.card2 {
+    padding: 0px;
+    width: 90%;
+    color: white;
+    background-color: black;
+}
+
+.card3 {
+        padding: 0px;
+}
+
+.card-header {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    position: relative;
+    left: 5px;
+}
+.container1 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.list-group {
+        width:100px;
+        width: 500px;
+        padding: 13px;
+}
+
+.img2 {
+    width: 15%;
+    margin-right: 30px;
+    
+}
+
+
+.card-body2{
+    padding: 60px;
+    text-align: center;
+    background-color: grey;
+   
+    
+
+}
+
+.contenitore5 {
+    width: 85%;
+    box-shadow: 0 10px 40px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: -5px;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+    
+   }
+
+   .title4 {
+    padding: 10px;
+    border-bottom: 1px solid #cac8c8;
+    background-color: #d6d0d0;
+   }
+
+   .tags1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 5px;
+    background-color: black;
+    color: white;
+   }
+
+   .tags {
+    background-color: #c7c7c7;
+    
+    margin: 5px;
+   }
+
+   .box2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 5px;
+    
+   }
+
+
+
+.ct-6 {
+        margin-left: 40px;
+}
+
