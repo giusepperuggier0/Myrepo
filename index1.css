@@ -1,0 +1,104 @@
+.containterLEFT{
+    background-color: red;
+    width: 300px;
+    height: 2000px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    padding-right: 180px;
+    height: 100%;
+    
+}
+
+.containterRight {
+    position: absolute;
+    left: 300px;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.nav-item {
+    list-style-type: none;
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    margin-right: 20px;
+    
+    padding: 0;
+    font-size: 30px;
+}
+
+h1 {
+    padding: 40px 0;
+    font-size: 50px;
+
+}
+
+.subtitle {
+    color: red;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+    padding-right: 50px;
+}
+
+.img2 {
+    width: 500px;
+    height: 270px;
+    padding-right: 50px;
+}
+
+.containerBottom {
+   margin-top: 100px;
+
+}
+
+.underscore {
+    margin: 10px;
+    width: 60px;
+    height: 4px;
+    background-color: red;
+}
+
+br{
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    opacity: 0.7;
+    
+}
+
+.card-group {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.packages {
+    margin-top: 70px;
+}
+
+.titletabella {
+    background-color: red;
+    color: white;
+}
+
+.titletabella1 {
+    background-color: rgb(157, 156, 156);
+    color: white;
+}
+
+.list-group-item {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
